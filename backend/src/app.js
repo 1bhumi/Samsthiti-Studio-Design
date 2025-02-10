@@ -9,7 +9,7 @@ app.use(express.urlencoded({ limit: "100kb", extended: true }))
 app.use(express.static("public/temp"))
 
 app.use(cors({
-    origin: "https://samsthiti-studio-design.vercel.app/",
+    origin: "https://samsthiti-studio-design.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"], 
     credentials: true
 }))
