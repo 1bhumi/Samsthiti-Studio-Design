@@ -30,7 +30,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        'http://localhost:4500/api/v1/admin/login',
+        'samsthiti-studio-design-api.vercel.app/login',
         formData,
         { withCredentials: true }  // Send cookies with the request
       );
