@@ -41,7 +41,7 @@ const User = () => {
                     ) : (
                         <div className="w-full max-w-4xl bg-white p-6 shadow-md rounded-lg">
                             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                {files.map((file, index) => (
+                                {files?.map((file, index) => (
                                     <li key={index} className="bg-gray-200 p-4 rounded-lg shadow-md">
                                         <a
                                             href={file.file}  // This will open the file directly
