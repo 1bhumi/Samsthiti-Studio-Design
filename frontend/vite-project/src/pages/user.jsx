@@ -9,7 +9,7 @@ const User = () => {
     // Fetch files from backend
     const fetchFiles = async () => {
         try {
-            const response = await axios.get("samsthiti-studio-design-api.vercel.app/get");
+            const response = await axios.get("https://samsthiti-studio-design-api-five.vercel.app/get");
             setFiles(response.data.data);  // Assuming response contains a `files` array
         } catch (error) {
             console.error("Error fetching files:", error);

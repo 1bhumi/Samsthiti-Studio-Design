@@ -26,7 +26,7 @@ const Signup = ()=> {
         e.preventDefault();
     
         try {
-            const response = await axios.post('samsthiti-studio-design-api.vercel.app/signup', formData, {
+            const response = await axios.post('https://samsthiti-studio-design-api-five.vercel.app/signup', formData, {
                 withCredentials: true,
     
             });
