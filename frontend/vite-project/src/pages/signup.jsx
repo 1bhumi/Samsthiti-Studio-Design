@@ -26,7 +26,7 @@ const Signup = ()=> {
         e.preventDefault();
     
         try {
-            const response = await axios.post('http://localhost:4500/api/v1/admin/signup', formData, {
+            const response = await axios.post('samsthiti-studio-design-api.vercel.app/signup', formData, {
                 withCredentials: true,
     
             });
